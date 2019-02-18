@@ -29,10 +29,12 @@ for ( var i = 0; i < 철자.length; i++ ) {
     console.log( "엑설사이징의 알파벳 철자는 " + 철자[i] + "입니다." )
 }
 
+//3의 제곱 값 구하기 
+//for 반복문 이용
 for ( var x = 3; x < 10000; x = x * 3 ) {
     console.log( x );
 }
-
+//while 반복문 이용
 var y = 3
 while ( y < 10000 ) {
     console.log( y = y * 3 );
@@ -47,3 +49,9 @@ for ( var x = 5; x < 10000; x =  x * 6) {
 for ( var i = 1; i <= 9; i++ ) {
     console.log( i * 2 );
     }
+
+for ( var x = 1; x <= 9; x++) {
+    for( var y = 2; y <= 9; y++) {
+        console.log( x * y);
+    }
+}
